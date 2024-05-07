@@ -2,9 +2,9 @@
   "name": "noodl-editor",
   "productName": "OpenNoodl Editor",
   "description": "Full stack low code React app builder",
-  "author": "The Low Code Foundation",
-  "homepage": "https://thelowcodefoundation.com",
-  "version": "1.0.0",
+  "author": "Peter",
+  "homepage": "https://noodl.net",
+  "version": "1.0.1",
   "main": "src/main/main.js",
   "scripts": {
     "build": "npx ts-node -P ./tsconfig.build.json ./scripts/build.ts",
