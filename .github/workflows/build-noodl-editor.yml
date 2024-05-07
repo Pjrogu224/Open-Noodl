@@ -58,12 +58,12 @@ jobs:
       - name: Build Noodl Viewer (build bundles and copy them to Noodl Editor)
         run: npm run build:editor:_viewer
         env:
-          WORKSPACE_PATH: ./
+          WORKSPACE_PATH: .
 
       - name: Build Noodl Editor (build bundles etc and signing)
         run: npm run build:editor:_editor
         env:
-          WORKSPACE_PATH: ./
+          WORKSPACE_PATH: .
           TARGET_PLATFORM: ${{ matrix.platform }}
 
       - run: npm run build:editor:pack
